@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32203" started-at="2022-01-31T16:38:16 IST" finished-at="2022-01-31T16:38:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32203" started-at="2022-01-31T16:38:16 IST" finished-at="2022-01-31T16:38:48 IST">
+      <class name="com.project.devon.ItemTest">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:com.project.devon.ItemTest@2c039ac6]" name="LaunchApp" is-config="true" duration-ms="6918" started-at="2022-01-31T16:38:16 IST" finished-at="2022-01-31T16:38:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="failedLoginTest()[pri:1, instance:com.project.devon.ItemTest@2c039ac6]" name="failedLoginTest" duration-ms="1049" started-at="2022-01-31T16:38:23 IST" finished-at="2022-01-31T16:38:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedLoginTest -->
+        <test-method status="PASS" signature="UserLogin()[pri:2, instance:com.project.devon.ItemTest@2c039ac6]" name="UserLogin" duration-ms="713" started-at="2022-01-31T16:38:24 IST" depends-on-methods="com.project.devon.ItemTest.failedLoginTest" finished-at="2022-01-31T16:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogin -->
+        <test-method status="PASS" signature="addItemToList()[pri:3, instance:com.project.devon.ItemTest@2c039ac6]" name="addItemToList" duration-ms="523" started-at="2022-01-31T16:38:25 IST" finished-at="2022-01-31T16:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToList -->
+        <test-method status="PASS" signature="usercheckOutItem()[pri:4, instance:com.project.devon.ItemTest@2c039ac6]" name="usercheckOutItem" duration-ms="1131" started-at="2022-01-31T16:38:25 IST" finished-at="2022-01-31T16:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercheckOutItem -->
+        <test-method status="PASS" signature="itemOrder()[pri:5, instance:com.project.devon.ItemTest@2c039ac6]" name="itemOrder" duration-ms="20975" started-at="2022-01-31T16:38:26 IST" finished-at="2022-01-31T16:38:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.devon.ItemTest@2c039ac6]" name="tearDown" is-config="true" duration-ms="823" started-at="2022-01-31T16:38:47 IST" finished-at="2022-01-31T16:38:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.project.devon.ItemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
